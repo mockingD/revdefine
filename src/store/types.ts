@@ -10,4 +10,6 @@ export interface RootState {
 export interface Settings {
   GRPCProxyHost: string;
   WebsocketHost: string;
+  InitBlockCount: number;
+  MaxCachedBlockCount: number;
 }
